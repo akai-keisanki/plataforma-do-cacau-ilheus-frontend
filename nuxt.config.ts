@@ -1,7 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
-const API_URL = 'http://localhost:5000'
-
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
@@ -11,17 +9,17 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     public: {
-      baseURL: API_URL
+      baseURL: '/api'
     }
   },
   auth: {
     isEnabled: true,
-    baseURL: API_URL,
+    baseURL: '/api',
     provider: {
       type: 'local',
       endpoints: {
         signIn: { path: '/user/login', method: 'post' },
-        getSession: { path: '/user', method: 'get' }
+        getSession: { path: '/user/', method: 'get' }
       },
       pages: {
         login: '/login'
@@ -43,5 +41,10 @@ export default defineNuxtConfig({
       "~/components"
     ]
   },
-  css: ['@/assets/styles/global.css']
+  css: ['@/assets/styles/global.css'],
+  routeRules: {
+    '/api/**': { 
+      proxy: 'http://127.0.0.1:5000/**',
+    },
+  }
 })
