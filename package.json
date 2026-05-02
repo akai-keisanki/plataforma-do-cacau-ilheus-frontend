@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@nuxt/eslint": "1.15.2",
+    "@sidebase/nuxt-auth": "^1.2.0",
+    "@vueuse/core": "^14.3.0",
+    "axios": "^1.15.2",
     "eslint": "^9.0.0 || ^10.0.0",
     "nuxt": "^4.4.4",
     "vue": "^3.5.33",
