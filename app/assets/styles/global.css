@@ -1,3 +1,36 @@
-* {
-  font-family: 'Noto Sans', 'Lato', sans-serif;
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+--bs-cacau-dark: #3d2314;
+--bs-cacau-primary: #5c3a21;
+--bs-cacau-light: #f5efe6;
+}
+
+body {
+background-color: var(--bs-cacau-light) !important;
+font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.header-cacau{
+    background-color: var(--bs-cacau-dark);
+}
+
+.btn-cacau {
+background-color: var(--bs-cacau-primary) !important;
+color: #ffffff !important;
+border: none;
+}
+
+.btn-cacau:hover {
+background-color: var(--bs-cacau-dark) !important;
+color: #ffffff !important;
+}
+
+.form-control:focus {
+border-color: var(--bs-cacau-primary) !important;
+box-shadow: 0 0 0 0.25rem rgba(92, 58, 33, 0.25) !important;
+}
+
+.pointer-link {
+cursor: pointer;
 }

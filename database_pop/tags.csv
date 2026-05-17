@@ -1,0 +1,62 @@
+name,description,tag_kind.name
+Bahia - Brasil,Cacau produzido no sul do estado da Bahia,Região de origem
+Esmeraldas - Equador,Região costeira equatoriana conhecida por cacau fino,Região de origem
+Pará - Brasil,Cacau amazônico com perfil intenso,Região de origem
+Agroflorestal,Cultivo integrado a outras espécies vegetais,Sistema de cultivo
+Monocultura,Cultivo em área dedicada exclusivamente ao cacau,Sistema de cultivo
+Orgânico,Manejo sem uso de insumos químicos sintéticos,Tipo de manejo
+Convencional,Manejo agrícola com uso controlado de insumos químicos,Tipo de manejo
+Biodinâmico,Manejo baseado em princípios biodinâmicos,Tipo de manejo
+Agricultura familiar,Produção realizada por pequenos produtores,Modelo produtivo
+Cooperativa,Produção organizada por cooperativa de produtores,Modelo produtivo
+Plantation,Produção em larga escala com estrutura industrial,Modelo produtivo
+Criollo,Grupo genético tradicional de alta qualidade sensorial,Grupo genético
+Forastero,Grupo genético mais produtivo e resistente,Grupo genético
+Trinitário,Híbrido de Criollo e Forastero,Grupo genético
+Fermentação em caixas de madeira,Processo fermentativo realizado em caixas de madeira,Tipo de fermentação
+Fermentação em sacos,Processo fermentativo realizado em sacos plásticos ou de juta,Tipo de fermentação
+Fermentação em bandejas,Processo fermentativo em bandejas abertas,Tipo de fermentação
+3 dias,Fermentação curta de aproximadamente três dias,Tempo de fermentação
+5 dias,Fermentação média de aproximadamente cinco dias,Tempo de fermentação
+7 dias,Fermentação longa de aproximadamente sete dias,Tempo de fermentação
+Secagem ao sol,Secagem natural sob luz solar,Método de secagem
+Secagem em estufa,Secagem controlada em estufa,Método de secagem
+Torra clara,Realça acidez e notas frutadas,Grau de torra
+Torra média,Equilíbrio entre aroma e amargor,Grau de torra
+Torra escura,Perfil intenso com amargor elevado,Grau de torra
+Artesanal,Processo de produção em pequena escala,Escala de produção
+Industrial,Processo de produção em larga escala,Escala de produção
+Amêndoa de cacau,Cacau seco e fermentado em grãos,Nível de processamento
+Nibs de cacau,Amêndoas quebradas e torradas,Nível de processamento
+Licor de cacau,Pasta integral de cacau moído,Nível de processamento
+Chocolate,Produto final com cacau e outros ingredientes,Nível de processamento
+Frutado,Perfil de sabor com predominância de frutas,Perfil de sabor
+Amendoado,Perfil de sabor com notas de castanhas,Perfil de sabor
+Terroso,Perfil de sabor intenso e terroso,Perfil de sabor
+Frutas vermelhas,Notas lembrando frutas vermelhas,Notas aromáticas
+Caramelo,Notas doces lembrando caramelo,Notas aromáticas
+Floral,Aroma delicado floral,Notas aromáticas
+Cacau intenso,Aroma profundo de cacau,Notas aromáticas
+Baixo,Amargor de baixa intensidade,Intensidade de amargor
+Médio,Amargor equilibrado,Intensidade de amargor
+Alto,Amargor intenso,Intensidade de amargor
+Baixa,Acidez suave e delicada,Acidez
+Média,Acidez equilibrada,Acidez
+Alta,Acidez pronunciada,Acidez
+Baixa,Adstringência pouco perceptível,Adstringência
+Média,Adstringência moderada,Adstringência
+Alta,Adstringência intensa,Adstringência
+Simples,Perfil sensorial direto e pouco complexo,Complexidade sensorial
+Complexo,Perfil sensorial com múltiplas camadas,Complexidade sensorial
+Bulk,Cacau de uso comercial comum,Classificação de qualidade
+Fine Flavor,Cacau de qualidade superior e perfil diferenciado,Classificação de qualidade
+Especial,Cacau selecionado de origem controlada,Classificação de qualidade
+Orgânico Certificado,Certificação orgânica reconhecida,Certificação
+Fair Trade,Certificação de comércio justo,Certificação
+Rainforest Alliance,Certificação socioambiental,Certificação
+80 g,Peso líquido do produto,Peso
+200 g,Peso líquido do produto,Peso
+1 kg,Peso líquido do produto,Peso
+Consumo direto,Produto destinado ao consumo imediato,Uso
+Confeitaria,Indicado para preparo de doces e sobremesas,Uso
+Bebidas,Indicado para preparo de bebidas quentes ou frias,Uso
