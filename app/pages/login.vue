@@ -64,8 +64,11 @@ async function handleLogon() {
 }
 </script>
 
-<template>
+<!--Algumas coisas relacionadas aos avisos que precisam aparecer,
+como por exemplo, o de Login Inválido, não tão aparecendo, ficam
+tudo em branco. Ainda vou ver como corrigir.-->
 
+<template>
   <div class="d-flex flex-column min-vh-100">
     <nav class="navbar
                 navbar-dark
